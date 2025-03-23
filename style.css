@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#films {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+#films li {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#films .sold-out {
+    text-decoration: line-through;
+    color: red;
+}
+
+#movie-details {
+    max-width: 400px;
+}
+
+#movie-poster {
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
